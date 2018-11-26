@@ -1,0 +1,140 @@
+/*
+* FLIPSTER DEMO STYLES
+*
+* Includes:
+*  - LESSHat
+*  - Elements from HTML5Boilerplate v4.2.0
+*  - Elements from from Bootstrap v2.3.1
+*/
+/* @group Basics */
+body {
+	background:#6CF;
+  color: #333333;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+}
+/* @end */
+/* @group Typography */
+a {
+  color: #da0d25;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #f22840;
+  text-decoration: none;
+}
+
+.img{
+	max-width:100%;
+	max-height:100%;
+}
+.square img {
+    height: 250px;
+    width: 580px;
+  
+}
+
+/* @end */
+body {
+  margin: 0;
+  padding: 0;
+}
+.Container {
+	max-width:100%;
+	max-height:100%;
+	margin: 0 auto;
+  padding: 0;
+}
+
+.Float-Left {
+  float: left;
+  margin-right: 20px;
+}
+.Float-Right {
+  float: right;
+  margin-left: 20px;
+}
+.Button {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  background-color:#666;
+  background-position: center center;
+  background-repeat: no-repeat;
+  colosr: #7a0715;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  -webkit-transition: color 300ms ease, background-color 300ms ease;
+  -moz-transition: color 300ms ease, background-color 300ms ease;
+  -o-transition: color 300ms ease, background-color 300ms ease;
+  -ms-transition: color 300ms ease, background-color 300ms ease;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+.Button:hover,
+.Button:focus {
+  color: #d1ffd9;
+  background: #fafc6f;
+}
+.Button.Small {
+  padding: 5px 10px;
+  font-size: small;
+}
+.Button.Block {
+  padding: 20px 40px;
+  width: 550px;
+  height: 250px;
+}
+.Button h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #FFF;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.affix {
+  position: fixed;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.pic{
+	padding-top:80px;
+	padding-left:150px;
+    height: 80px;
+    width: 80px;
+  
+}
